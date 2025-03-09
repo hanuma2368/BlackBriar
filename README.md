@@ -3,9 +3,9 @@ def calculate_area(radius):
         area = 3.14 * radius * radius
     elif radius > 0:
         area = 3.14 * radius * radius
-        return Area  # This is a typo; 'Area' should be 'area'
+        return Area  
     else:
-        return "Invalid radius"  # This block will never execute due to the previous conditions
+        return "Invalid radius"  
 
 def main():
     r = input("Enter the radius: ")
