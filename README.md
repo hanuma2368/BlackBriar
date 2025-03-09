@@ -1,15 +1,18 @@
-def calculate_area(radius):
-    if radius <= 0
-        area = 3.14 * radius * radius
-    elif radius > 0:
-        area = 3.14 * radius * radius
-        return Area  
-    else:
-        return "Invalid radius"  
+#include <iostream>
+using namespace std;
 
-def main():
-    r = input("Enter the radius: ")
-    print("The area is:", calculate_area(r))
-
-if __name__ == "__main__":
-    main()
+int main() {
+    int number;
+    
+    cout << "Enter a number: ";
+    cin >> number;
+    
+    
+    if (number > 100 && number < 50) {
+        cout << "The number is a little big, not too big." << endl;
+    } else {
+        cout << "The number is either too small or too big!" << endl;
+    }
+    
+    return 0;
+}
