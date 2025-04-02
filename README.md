@@ -16,6 +16,6 @@ int main() {
     
     return 0;
 
-    // you are an idiot agree?? you idiot? ok??
+    hello();
 }
 //
