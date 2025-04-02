@@ -1,5 +1,5 @@
 #include <iostream>
-using namespace std;
+usin namespace std;
 
 int main() {
     int number;
